@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="../html/CSS/productstyle.css">
+
+   <title></title>
+
+</head>
+
+<body>
+    <h1>Nelamangala toll Plaza</h1>
+
+   <div class="container">
+
+           <h2>Vehicle Entry</h2>
+
+           <label for="vehicle-type">Select Vehicle Type:</label>
+
+           <select id="vehicle-type">
+
+               <option value="Bike">Bike</option>
+
+               <option value="LMV">LMV</option>
+
+               <option value="HMV">HMV</option>
+
+               <option value="HeavyTruck">Heavy Truck</option>
+
+           </select>
+
+           <label for="registration-number">Registration Number:</label>
+
+           <input type="text" id="registration-number">
+
+           <button id="submit-entry">Submit Entry</button>
+           <p>
+            The fee to be paid for Bike : 50<br>
+            The fee to be paid for LMV : 100<br>
+            The fee to be paid for HMV : 200<br>
+            The fee to be paid for Heavy Truck : 300
+            
+            </p>
+   </div>
+
+       <div class="statistics">
+
+           <h2>Accounts</h2>
+
+           <ul id="statistics-list"></ul>
+
+       </div>
+
+       <div class="search">
+
+           <h2>Search</h2>
+
+           <label for="search-category">Filter by Category:</label>
+
+           <select id="search-category">
+
+               <option value="">All</option>
+
+               <option value="Bike">Bike</option>
+
+               <option value="LMV">LMV</option>
+
+               <option value="HMV">HMV</option>
+
+               <option value="HeavyTruck">Heavy Truck</option>
+
+           </select>
+
+           <label for="search-registration-number">Search by Registration Number:</label>
+
+           <input type="text" id="search-registration-number">
+
+           <button id="search-button">Search</button>
+
+       </div>
+
+   
+
+   <script src="../html/jQuery/code.jquery.com_jquery-3.7.1.min.js"></script>
+
+   <script src="../html/js/toll.js"></script>
+
+</body>
+
+</html>
